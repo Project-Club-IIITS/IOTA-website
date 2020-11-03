@@ -68,23 +68,27 @@ preloader = ""
 [[params.social]]
 icon = "ti-instagram"
 link = "https://www.instagram.com/iota_iiits/"
-title = "instagram"
+title = "Instagram"
 [[params.social]]
 icon = "ti-facebook"
 link = "https://www.facebook.com/IOTA.IIITS/"
-title = "facebook"
+title = "Facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
 link = "https://twitter.com/IiitsIota"
-title = "twitter"
+title = "Twitter"
 [[params.social]]
 icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/iota-iiits/"
-title = "linkedin"
+title = "LinkedIn"
 [[params.social]]
 icon = "ti-youtube"
-link = "https://youtube.com/channel/UCjgxVYzHDlEWZZbCrjC1JSA"
-title = "youtube"
+link = "https://youtube.com/channel/UCjEmVWGq5DOtCluEifkjNlA"
+title = "YouTube"
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/Project-Club-IIITS/"
+title = "GitHub"
 [[params.copyrights]]
 icon="ti-linkedin"
 link="https://www.linkedin.com/in/suryavardan-suresh-9116511a0"
