@@ -1,3 +1,5 @@
+{{ define "customjs" }}<script src="https://www.google.com/recaptcha/api.js" async defer></script>{{ end }}
+
 {{ define "main" }} {{ partial "page-header.html" . }}
 <section class="section bg-white">
   <div class="container">
@@ -13,6 +15,7 @@
             id="name"
             name="name"
             placeholder="Your Name"
+            required="true"
           />
           <input
             type="email"
@@ -20,6 +23,7 @@
             id="mail"
             name="mail"
             placeholder="Your Email"
+            required="true"
           />
           <input
             type="text"
@@ -27,6 +31,7 @@
             id="subject"
             name="subject"
             placeholder="Subject"
+            required="true"
           />
           <textarea
             name="message"
@@ -34,6 +39,7 @@
             class="form-control mb-3"
             placeholder="Your Message"
           ></textarea>
+          <div class="g-recaptcha" data-sitekey="6Leb0d4ZAAAAAGVyhDRwJVu3V4XT27wc7z0RDKab"></div>
           <input
             type="checkbox"
             name="{{ site.Params.custom_honeypot }}"
